@@ -1,0 +1,89 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f3f4f6;
+  transition: 0.3s;
+}
+
+.app {
+  padding: 20px;
+  text-align: center;
+}
+
+.stats div {
+  margin: 5px 0;
+}
+
+.progress-bar {
+  width: 100%;
+  background: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+#xpBar {
+  height: 20px;
+  width: 0%;
+  background: #4CAF50;
+  transition: 0.3s;
+}
+
+.habit {
+  background: white;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+button {
+  padding: 8px 15px;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+}
+
+.dark {
+  background: #111;
+  color: white;
+}
+
+.dark .habit {
+  background: #222;
+}
+
+.blue {
+  background: #2196F3;
+  color: white;
+}
+
+.purple {
+  background: #9C27B0;
+  color: white;
+}
+.profile {
+  font-size: 50px;
+}
+
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.day {
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+}
+
+.boss {
+  background: #ffdddd;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+canvas {
+  background: white;
+  border-radius: 10px;
+}
